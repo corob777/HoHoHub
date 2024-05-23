@@ -1,0 +1,12 @@
+_G["HoHo Fruits Collector"] = {
+    ["Select Team"] = "Pirate",
+    ["Auto Store"] = true, 
+    ["Buy Fruit From Dealer"] = true,
+    ["Ignore Fruits Spawned That You Already Have"] = true,
+    ["Bypass Teleport"] = true, 
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Webhook Link"] = "",
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
